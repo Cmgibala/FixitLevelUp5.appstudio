@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "#A70429", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -14,18 +14,27 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "Form1", 
+        "seeCustomers", 
         "Elements", 
-        "Button1.json"
+        "taData.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "Form1", 
+        "seeCustomers", 
         "Elements", 
-        "Input1.json"
+        "drpCustomer.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "seeCustomers", 
+        "Elements", 
+        "hmbMenu.json"
       ]
     }
   ], 
@@ -35,7 +44,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Form1", 
+  "id": "seeCustomers", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -43,7 +52,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "seeCustomers.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

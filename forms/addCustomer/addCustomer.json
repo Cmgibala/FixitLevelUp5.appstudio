@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "#A70429", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -14,18 +14,45 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "Form1", 
+        "addCustomer", 
         "Elements", 
-        "Button1.json"
+        "lgCustomerData.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "Form1", 
+        "addCustomer", 
         "Elements", 
-        "Input1.json"
+        "Modal1.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addCustomer", 
+        "Elements", 
+        "btnAddNew.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addCustomer", 
+        "Elements", 
+        "inptNewCustomer.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "addCustomer", 
+        "Elements", 
+        "hmbFinal.json"
       ]
     }
   ], 
@@ -35,7 +62,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Form1", 
+  "id": "addCustomer", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -43,7 +70,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "addCustomer.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 

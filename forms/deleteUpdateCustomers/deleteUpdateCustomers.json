@@ -2,7 +2,7 @@
   "!type": "Form", 
   "HTML": null, 
   "attributes": "", 
-  "background": "", 
+  "background": "#A70429", 
   "backgroundimage": "", 
   "borderColor": "", 
   "borderStyle": "", 
@@ -14,18 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "Form1", 
+        "deleteUpdateCustomers", 
         "Elements", 
-        "Button1.json"
+        "taCustomers.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "Form1", 
+        "deleteUpdateCustomers", 
         "Elements", 
-        "Input1.json"
+        "drpCustomers.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "deleteUpdateCustomers", 
+        "Elements", 
+        "rdoOptions.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "deleteUpdateCustomers", 
+        "Elements", 
+        "btnSubmit.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "deleteUpdateCustomers", 
+        "Elements", 
+        "inptNewName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "deleteUpdateCustomers", 
+        "Elements", 
+        "hmbMenu1.json"
       ]
     }
   ], 
@@ -35,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "Form1", 
+  "id": "deleteUpdateCustomers", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -43,7 +79,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "", 
+  "onshow": "deleteUpdateCustomers.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
