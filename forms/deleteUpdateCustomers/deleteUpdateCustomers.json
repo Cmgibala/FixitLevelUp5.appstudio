@@ -14,27 +14,54 @@
       "!type": "External", 
       "file": [
         "forms", 
-        "seeCustomers", 
+        "deleteUpdateCustomers", 
         "Elements", 
-        "taData.json"
+        "taCustomers.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "seeCustomers", 
+        "deleteUpdateCustomers", 
         "Elements", 
-        "drpCustomer.json"
+        "drpCustomers.json"
       ]
     }, 
     {
       "!type": "External", 
       "file": [
         "forms", 
-        "seeCustomers", 
+        "deleteUpdateCustomers", 
         "Elements", 
-        "hmbMenu.json"
+        "rdoOptions.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "deleteUpdateCustomers", 
+        "Elements", 
+        "btnSubmit.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "deleteUpdateCustomers", 
+        "Elements", 
+        "inptNewName.json"
+      ]
+    }, 
+    {
+      "!type": "External", 
+      "file": [
+        "forms", 
+        "deleteUpdateCustomers", 
+        "Elements", 
+        "hmbMenu1.json"
       ]
     }
   ], 
@@ -44,7 +71,7 @@
   "expanded_pmp": null, 
   "fullScreen": "true", 
   "height": 460, 
-  "id": "seeCustomers", 
+  "id": "deleteUpdateCustomers", 
   "language": "JavaScript", 
   "left": "0", 
   "locked": false, 
@@ -52,7 +79,7 @@
   "onhide": "", 
   "onkeypress": "", 
   "onresize": "", 
-  "onshow": "seeCustomers.onshow()", 
+  "onshow": "deleteUpdateCustomers.onshow()", 
   "openMode": "none", 
   "parentForm": "", 
   "position": "absolute", 
